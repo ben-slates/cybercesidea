@@ -1,0 +1,33 @@
+{
+  "name": "cybercesidea",
+  "version": "1.0.0",
+  "description": "Cybersecurity Decision Simulator - Interactive scenario-based learning platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@trpc/client": "^10.0.0",
+    "@trpc/server": "^10.0.0",
+    "@trpc/react-query": "^10.0.0",
+    "@tanstack/react-query": "^5.0.0",
+    "drizzle-orm": "^0.29.0",
+    "pg": "^8.11.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "drizzle-kit": "^0.20.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0"
+  }
+}
